@@ -4,7 +4,8 @@
 ### Load Firestore
 1. Local
 
-    Navigate to `url-shortener` and execute `docker compose up -d`
+    Navigate to root folder of the project `url-shortener` and execute `docker compose up -d`
+
     Export the following environment variable:
 
     ```export FIRESTORE_EMULATOR_HOST=0.0.0.0:8342```
@@ -29,12 +30,13 @@
 
 ### Start application
 
-1. Execute `go run cmd/urlshortener/main.go`
+1. Execute from root folder of the project: `go run cmd/urlshortener/main.go`
 
 ## Run unit tests
 1. Start Firestore emulator:
 
-    Navigate to `url-shortener` and execute `docker compose up`
+    Navigate root folder of the project `url-shortener` and execute `docker compose up`
+
     Export the following environment variable:
 
     ```export FIRESTORE_EMULATOR_HOST=0.0.0.0:8342```
