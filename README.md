@@ -16,7 +16,7 @@
     
     ```
     export FIRESTORE_EMULATOR_HOST=0.0.0.0:8342
-    export GOOGLE_APPLICATION_CREDENTIALS=<path-to-service-account>"
+    export GOOGLE_APPLICATION_CREDENTIALS="<path-to-service-account>"
     ```
 
 ### Set up application config
