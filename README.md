@@ -35,7 +35,7 @@
 ## Run unit tests
 1. Start Firestore emulator:
 
-    Navigate root folder of the project `url-shortener` and execute `docker compose up`
+    In order to prepare environment for the tests we need to start a Firestore emulator. Navigate root folder of the project `url-shortener` and execute `docker compose up`
 
     Export the following environment variable:
 
